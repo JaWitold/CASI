@@ -1,0 +1,125 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            04:22:60:ab:07:15:a9:46:d4:07:65:aa:4c:06:88:34:e8:5a
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = US, O = Let's Encrypt, CN = R3
+        Validity
+            Not Before: Oct  4 09:45:26 2023 GMT
+            Not After : Jan  2 09:45:25 2024 GMT
+        Subject: CN = cs.pwr.edu.pl
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:b9:cd:d9:95:9b:b9:f9:ff:7c:72:15:8b:af:6b:
+                    ee:7b:21:6a:1a:97:d0:96:42:b5:95:e6:22:6b:71:
+                    e7:04:69:e1:3d:f8:0d:4e:e0:12:ea:64:04:e6:03:
+                    c3:83:5a:09:94:aa:54:87:64:fa:79:2c:4c:29:c5:
+                    71:a3:db:b9:b6:65:d0:4b:1b:2a:dc:8c:ec:4a:e5:
+                    f3:70:ad:1a:e6:aa:c2:95:14:de:a0:57:01:d3:0d:
+                    58:48:d2:14:05:9a:fe:e5:80:68:6b:2e:bb:8a:71:
+                    f6:38:f0:4a:17:d4:60:c7:92:4a:2b:4f:41:6e:b8:
+                    f5:2c:bb:71:0b:6b:4d:28:0e:1e:33:f8:8a:7e:9a:
+                    53:40:13:b1:bf:8e:ac:36:3b:9c:90:c8:b4:cb:21:
+                    46:5a:4e:b7:6d:ba:c3:82:95:79:d8:ad:fe:05:c1:
+                    0d:6c:86:8b:4c:98:92:8d:83:55:e9:0b:f9:f8:4a:
+                    7a:9c:8c:1f:58:39:0a:a3:52:f5:7b:7b:a3:c1:ee:
+                    4e:ed:e5:c0:05:b6:fb:03:7a:46:b4:d0:7c:0d:e0:
+                    4e:0c:65:d1:d4:cf:5c:5d:4a:e8:d0:5d:08:c2:0a:
+                    e4:c7:47:36:de:53:ec:92:85:61:81:f1:d9:01:8d:
+                    14:de:4c:6e:01:b6:bf:a1:b0:86:57:7d:b3:a7:2a:
+                    e2:37
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                03:BD:C4:EE:B0:86:C9:88:6C:F9:62:36:89:7A:B6:01:48:79:DC:40
+            X509v3 Authority Key Identifier: 
+                14:2E:B3:17:B7:58:56:CB:AE:50:09:40:E6:1F:AF:9D:8B:14:C2:C6
+            Authority Information Access: 
+                OCSP - URI:http://r3.o.lencr.org
+                CA Issuers - URI:http://r3.i.lencr.org/
+            X509v3 Subject Alternative Name: 
+                DNS:cs.pwr.edu.pl, DNS:ifipsec2018.pwr.edu.pl, DNS:ki.pwr.edu.pl, DNS:knsi.pwr.wroc.pl, DNS:settheory.pwr.edu.pl, DNS:studia.cs.pwr.edu.pl, DNS:www.knsi.pwr.wroc.pl
+            X509v3 Certificate Policies: 
+                Policy: 2.23.140.1.2.1
+            CT Precertificate SCTs: 
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : DA:B6:BF:6B:3F:B5:B6:22:9F:9B:C2:BB:5C:6B:E8:70:
+                                91:71:6C:BB:51:84:85:34:BD:A4:3D:30:48:D7:FB:AB
+                    Timestamp : Oct  4 10:45:26.609 2023 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:45:02:21:00:E9:EA:57:7C:64:D3:CC:D4:6B:FE:41:
+                                10:F1:A5:A4:DA:CF:1B:63:73:6C:6C:25:21:A3:95:2F:
+                                2D:79:B9:BA:A2:02:20:7E:2D:ED:87:A7:EA:ED:11:67:
+                                E4:4E:3C:F8:0F:AE:4E:8B:8D:B7:6A:E3:CE:6D:64:FD:
+                                4E:C7:0B:A5:E9:00:45
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : 3B:53:77:75:3E:2D:B9:80:4E:8B:30:5B:06:FE:40:3B:
+                                67:D8:4F:C3:F4:C7:BD:00:0D:2D:72:6F:E1:FA:D4:17
+                    Timestamp : Oct  4 10:45:26.598 2023 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:46:02:21:00:EC:EB:F8:F0:8B:1D:AA:1C:66:4D:8F:
+                                E5:7D:C5:44:AB:BE:27:31:A8:8B:4A:BD:2B:9D:76:19:
+                                C1:BD:D3:CC:F3:02:21:00:98:2D:23:87:40:48:28:EE:
+                                9D:E7:DE:75:C2:B1:22:96:30:53:99:8D:39:CD:56:CF:
+                                8E:41:D7:97:1F:76:1A:7D
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        5b:d5:ac:a4:9e:a3:3d:b0:28:82:3c:97:2b:ec:68:fa:82:87:
+        8f:33:0d:e9:b9:d1:b5:85:0d:39:f9:33:ab:30:38:f1:cd:b6:
+        6a:97:08:4d:32:43:2c:ba:56:d6:27:44:9a:68:5e:62:ca:da:
+        1d:be:ad:cc:4d:1a:d0:00:3d:90:b9:a5:0f:13:25:88:59:f0:
+        00:30:e1:d2:47:15:e8:b2:3f:af:48:a5:13:08:95:ea:e0:6d:
+        95:94:72:e5:a9:b1:95:03:39:d7:b8:f5:b1:7f:6e:2c:0a:28:
+        bc:c0:cb:38:fc:4d:47:2c:96:69:a3:10:92:ec:44:35:56:b1:
+        5c:89:24:1a:1b:ac:17:c6:15:59:dd:d2:2c:60:ee:14:7f:a7:
+        f3:e1:93:61:05:78:ab:63:e2:c1:39:a5:a4:24:bd:8e:dd:ca:
+        b1:73:ec:5b:53:ac:25:50:2f:f5:81:10:34:0f:ea:93:26:98:
+        5b:c6:97:29:45:7c:80:4f:7b:0a:98:72:a2:d2:fd:12:fc:39:
+        ca:fe:03:cb:a3:8d:cd:ee:f0:9e:63:d5:d2:7a:82:97:d8:ad:
+        74:b5:c2:fd:36:5c:26:9f:9f:77:df:98:4c:b4:3c:7f:48:83:
+        18:ea:9f:e3:c5:f3:25:33:e8:7f:93:f8:08:48:8d:d0:b1:21:
+        e8:55:4b:d3
+-----BEGIN CERTIFICATE-----
+MIIFZjCCBE6gAwIBAgISBCJgqwcVqUbUB2WqTAaINOhaMA0GCSqGSIb3DQEBCwUA
+MDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD
+EwJSMzAeFw0yMzEwMDQwOTQ1MjZaFw0yNDAxMDIwOTQ1MjVaMBgxFjAUBgNVBAMT
+DWNzLnB3ci5lZHUucGwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC5
+zdmVm7n5/3xyFYuva+57IWoal9CWQrWV5iJrcecEaeE9+A1O4BLqZATmA8ODWgmU
+qlSHZPp5LEwpxXGj27m2ZdBLGyrcjOxK5fNwrRrmqsKVFN6gVwHTDVhI0hQFmv7l
+gGhrLruKcfY48EoX1GDHkkorT0FuuPUsu3ELa00oDh4z+Ip+mlNAE7G/jqw2O5yQ
+yLTLIUZaTrdtusOClXnYrf4FwQ1shotMmJKNg1XpC/n4SnqcjB9YOQqjUvV7e6PB
+7k7t5cAFtvsDeka00HwN4E4MZdHUz1xdSujQXQjCCuTHRzbeU+yShWGB8dkBjRTe
+TG4Btr+hsIZXfbOnKuI3AgMBAAGjggKOMIICijAOBgNVHQ8BAf8EBAMCBaAwHQYD
+VR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0O
+BBYEFAO9xO6whsmIbPliNol6tgFIedxAMB8GA1UdIwQYMBaAFBQusxe3WFbLrlAJ
+QOYfr52LFMLGMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0cDovL3Iz
+Lm8ubGVuY3Iub3JnMCIGCCsGAQUFBzAChhZodHRwOi8vcjMuaS5sZW5jci5vcmcv
+MIGVBgNVHREEgY0wgYqCDWNzLnB3ci5lZHUucGyCFmlmaXBzZWMyMDE4LnB3ci5l
+ZHUucGyCDWtpLnB3ci5lZHUucGyCEGtuc2kucHdyLndyb2MucGyCFHNldHRoZW9y
+eS5wd3IuZWR1LnBsghRzdHVkaWEuY3MucHdyLmVkdS5wbIIUd3d3Lmtuc2kucHdy
+Lndyb2MucGwwEwYDVR0gBAwwCjAIBgZngQwBAgEwggEFBgorBgEEAdZ5AgQCBIH2
+BIHzAPEAdgDatr9rP7W2Ip+bwrtca+hwkXFsu1GEhTS9pD0wSNf7qwAAAYr6SuPR
+AAAEAwBHMEUCIQDp6ld8ZNPM1Gv+QRDxpaTazxtjc2xsJSGjlS8tebm6ogIgfi3t
+h6fq7RFn5E48+A+uTouNt2rjzm1k/U7HC6XpAEUAdwA7U3d1Pi25gE6LMFsG/kA7
+Z9hPw/THvQANLXJv4frUFwAAAYr6SuPGAAAEAwBIMEYCIQDs6/jwix2qHGZNj+V9
+xUSrvicxqItKvSuddhnBvdPM8wIhAJgtI4dASCjunefedcKxIpYwU5mNOc1Wz45B
+15cfdhp9MA0GCSqGSIb3DQEBCwUAA4IBAQBb1ayknqM9sCiCPJcr7Gj6goePMw3p
+udG1hQ05+TOrMDjxzbZqlwhNMkMsulbWJ0SaaF5iytodvq3MTRrQAD2QuaUPEyWI
+WfAAMOHSRxXosj+vSKUTCJXq4G2VlHLlqbGVAznXuPWxf24sCii8wMs4/E1HLJZp
+oxCS7EQ1VrFciSQaG6wXxhVZ3dIsYO4Uf6fz4ZNhBXirY+LBOaWkJL2O3cqxc+xb
+U6wlUC/1gRA0D+qTJphbxpcpRXyAT3sKmHKi0v0S/DnK/gPLo43N7vCeY9XSeoKX
+2K10tcL9Nlwmn59335hMtDx/SIMY6p/jxfMlM+h/k/gISI3QsSHoVUvT
+-----END CERTIFICATE-----
